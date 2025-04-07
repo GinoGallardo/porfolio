@@ -1,7 +1,7 @@
 import React from 'react'
 import Redes from '../components/Redes/Redes.jsx'
 import Button from '../components/Button/Button.jsx'
-import { imgProfile } from '../assets/img-profile1.png'
+import { imgProfile } from '/assets/img-profile1.png'
 
 const Home = () => {
   return (
