@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Mada:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Mada', sans-serif;
+}
