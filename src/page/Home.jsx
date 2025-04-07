@@ -1,13 +1,14 @@
 import React from 'react'
 import Redes from '../components/Redes/Redes.jsx'
 import Button from '../components/Button/Button.jsx'
+import { imgProfile } from '../assets/img-profile1.png'
 
 const Home = () => {
   return (
     <>
       <div className='w-full mx-auto flex items-center justify-between lg:px-8'>
         <div className='flex flex-col max-w-7xl p-2 gap-y-4 lg:flex-row items-center m-auto bg-[rgba(249,126,62,0.3)] backdrop-blur-xs shadow-lg rounded-lg lg:p-12 lg:mt-20  lg:gap-x-10'>
-          <img className='w-md lg:w-xl rounded-3xl' src="../src/assets/img-profile1.png" alt="" />
+          <img className='w-md lg:w-xl rounded-3xl' src={imgProfile} alt="" />
           <div className='text-white flex flex-col gap-y-4 lg:gap-y-8'>
             <div className='flex flex-col items-center justify-center lg:items-start'>
               <h1 className='text-xl md:text-3xl lg:text-[1.8em] xl:text-[4rem] font-bold font-[crimson] tracking-widest'>GINO GALLARDO</h1>
