@@ -23,6 +23,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className='flex items-center justify-center m-20'>
+        <img src="/public/image/img-profile.png" alt="" className='w-50'/>
+      </div>
     </>
   )
 }
