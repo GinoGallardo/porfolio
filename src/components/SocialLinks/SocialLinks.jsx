@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 
 
-function Redes() {
+function SocialLinks() {
   return (
     <div className='flex gap-x-6 '>
       <a href="#" className='hover:text-[#f97e3e]'>
@@ -15,4 +15,4 @@ function Redes() {
   )
 }
 
-export default Redes
+export default SocialLinks
