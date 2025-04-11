@@ -22,7 +22,11 @@ const Home = () => {
 
   return (
     <div className='w-full mx-auto px-6 flex lg:px-8'>
-      <Atropos
+        <div
+          className='flex flex-col max-w-7xl min-h-[45rem] p-2 gap-y-4 lg:flex-row items-center m-auto backdrop-blur-xs shadow-none rounded-lg lg:p-8 lg:mt-20 lg:gap-x-10 transition-opacity ease-out duration-[1200ms]'
+          style={{ opacity }}
+        >
+          <Atropos
         className='w-full'
         activeOffset={20}
         shadow={false}
@@ -30,11 +34,8 @@ const Home = () => {
         rotateXMax={2}
         rotateYMax={2}
       >
-        <div
-          className='flex flex-col max-w-7xl min-h-[45rem] p-2 gap-y-4 lg:flex-row items-center m-auto bg-[rgba(249,126,62,0.3)] backdrop-blur-xs shadow-none rounded-lg lg:p-8 lg:mt-20 lg:gap-x-10 transition-opacity ease-out duration-[1200ms]'
-          style={{ opacity }}
-        >
           <img className='w-md lg:w-xl rounded-3xl' src={imageProfile} alt="Perfil de Gino Gallardo" />
+      </Atropos>
           <div className='text-white flex flex-col gap-y-4 lg:gap-y-6'>
             <div className='flex flex-col items-center justify-center lg:items-start'>
               <h1 className='text-3xl md:text-4xl lg:text-[1.8em] xl:text-[4rem] font-bold font-[crimson] tracking-widest'>GINO GALLARDO</h1>
@@ -51,7 +52,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </Atropos>
     </div>
   )
 }
