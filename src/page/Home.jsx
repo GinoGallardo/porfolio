@@ -43,7 +43,7 @@ const Home = () => {
               </h3>
             </div>
             <div className='lg:text-2xl px-2 md:px-16 lg:pl-0'>
-              <p>Construyo experiencias digitales que combinan funcionalidad, diseño y accesibilidad. Me gusta convertir buenas ideas en productos que se sienten bien, se ven mejor y funcionan aún mejor.</p>
+              <p>Construyo experiencias digitales que combinan funcionalidad, diseño y accesibilidad. Me gusta convertir buenas ideas en productos que se sienten bien, se ven y funcionan aún mejor.</p>
             </div>
             <div className='flex items-center justify-between px-3 md:px-16 lg:mt-20'>
               <Button />
