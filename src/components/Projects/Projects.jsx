@@ -44,7 +44,6 @@ const Projects = () => {
                 <p className='flex items-center justify-center text-white text-xl font-light font-[mada] tracking-widest'>
                   {item.description}
                 </p>
-              </div>
                 <div className="flex gap-6 text-white">
                   {item.urlRepo && (
                     <a
@@ -67,6 +66,7 @@ const Projects = () => {
                     </a>
                   )}
                 </div>
+              </div>
                 <div className="mt-4 flex flex-wrap gap-5">
                   {item.tecnologias.map((tech, i) => {
                     const IconComponent = iconMap[tech.icon];
