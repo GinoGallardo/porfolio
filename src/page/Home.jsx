@@ -28,13 +28,13 @@ const Home = () => {
         >
           <Atropos
         className='w-full'
-        activeOffset={20}
+        activeOffset={40}
         shadow={false}
         highlight={false}
         rotateXMax={2}
         rotateYMax={2}
       >
-          <img className='w-md lg:w-xl rounded-3xl' src={imageProfile} alt="Perfil de Gino Gallardo" />
+          <img data-atropos-offset="5" className='w-md lg:w-xl rounded-3xl' src={imageProfile} alt="Perfil de Gino Gallardo" />
       </Atropos>
           <div className='text-white flex flex-col gap-y-4 lg:gap-y-6'>
             <div className='flex flex-col items-center justify-center lg:items-start'>
