@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div className='w-full mx-auto px-6 flex lg:px-8'>
         <div
-          className='flex flex-col max-w-7xl min-h-[45rem] p-2 gap-y-4 lg:flex-row items-center m-auto backdrop-blur-xs shadow-none rounded-lg lg:p-8 lg:mt-20 lg:gap-x-10 transition-opacity ease-out duration-[1200ms]'
+          className='flex flex-col max-w-7xl min-h-[45rem] p-2 gap-y-4 lg:flex-row items-center m-auto bg-transparent shadow-none rounded-lg lg:p-8 lg:mt-20 lg:gap-x-10 transition-opacity ease-out duration-[1200ms]'
           style={{ opacity }}
         >
           <Atropos
