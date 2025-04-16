@@ -1,11 +1,11 @@
 import ParticulesBackgroun from './components/ParticlesBg/ParticulesBackgroun';
-import Landing from './components/template/Landing';
+import Router from './Router/Router';
 
 function App() {
   return (
     <>
       <ParticulesBackgroun />
-      <Landing/>
+      <Router />
     </>
   );
 }

@@ -21,26 +21,26 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='w-full mx-auto px-6 flex lg:px-8'>
+    <div className='w-full mt-7 mx-auto px-6 flex lg:px-8'>
       <div
-        className='flex flex-col max-w-7xl min-h-[45rem] p-2 gap-y-4 lg:flex-row items-center m-auto bg-transparent shadow-none rounded-lg lg:p-8 lg:mt-20 lg:gap-x-10 transition-opacity ease-out duration-[1200ms]'
+        className='flex flex-col max-w-7xl min-h-[45rem] p-2 gap-y-4 lg:flex-row items-center m-auto bg-transparent shadow-none rounded-lg lg:p-8 lg:mt-13 lg:gap-x-10 transition-opacity ease-out duration-[1200ms]'
         style={{ opacity }}
       >
         <Atropos
-  className="w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-xl overflow-hidden"
-  activeOffset={40}
-  shadowScale={1.05}
-  shadow={true}
-  highlight={false}
-  onRotate={(x, y) => console.log('Rotate', x, y)}
->
-  <img
-    src={imageProfile}
-    alt="Perfil de Gino Gallardo"
-    data-atropos-offset="8"
-    className="w-full h-full "
-  />
-</Atropos>
+          className="w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-xl overflow-hidden"
+          activeOffset={40}
+          shadowScale={1.05}
+          shadow={true}
+          highlight={false}
+          onRotate={(x, y) => console.log('Rotate', x, y)}
+        >
+          <img
+            src={imageProfile}
+            alt="Perfil de Gino Gallardo"
+            data-atropos-offset="8"
+            className="w-full h-full "
+          />
+        </Atropos>
 
         <div className='text-white flex flex-col gap-y-4 lg:gap-y-6'>
           <div className='flex flex-col items-center justify-center lg:items-start'>

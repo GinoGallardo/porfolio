@@ -40,20 +40,6 @@
     ]
   },
   {
-    "name": "Porfolio ginogt",
-    "description": "Portafolio personal desarrollado con React, TailwindCSS y JavaScript. Presenta mis proyectos, habilidades y experiencia de forma visual, clara y responsive, con enfoque en diseño limpio y navegación intuitiva.",
-    "urlRepo": "https://github.com/GinoGallardo/porfolio",
-    "url": "https://porfolio-gino-gallardo.vercel.app/",
-    "iconRepo": "FaGithub",
-    "iconUrl": "HiMiniArrowTopRightOnSquare",
-    "image": "/image/porfolio.png",
-    "tecnologias": [
-      { "name": "React", "icon": "FaReact" },
-      { "name": "Javascript", "icon": "TbBrandJavascript" },
-      { "name": "Tailwind", "icon": "RiTailwindCssFill" }
-    ]
-  },
-  {
     "name": "Buscador de películas",
     "description": "Aplicación web inspirada en el diseño de Netflix, desarrollada con HTML, CSS, JavaScript y Bootstrap. Permite buscar películas utilizando una API externa, practicando el consumo de datos en tiempo real y la creación de interfaces dinámicas y responsivas.",
     "urlRepo": "https://github.com/GinoGallardo/buscador-peliculas-js/blob/main/index.html",
@@ -65,6 +51,20 @@
       { "name": "React", "icon": "FaReact" },
       { "name": "Javascript", "icon": "TbBrandJavascript" },
       { "name": "Bootstrap", "icon": "FaBootstrap" }
+    ]
+  },
+  {
+    "name": "Porfolio ginogt",
+    "description": "Portafolio personal desarrollado con React, TailwindCSS y JavaScript. Presenta mis proyectos, habilidades y experiencia de forma visual, clara y responsive, con enfoque en diseño limpio y navegación intuitiva.",
+    "urlRepo": "https://github.com/GinoGallardo/porfolio",
+    "url": "https://porfolio-gino-gallardo.vercel.app/",
+    "iconRepo": "FaGithub",
+    "iconUrl": "HiMiniArrowTopRightOnSquare",
+    "image": "/image/porfolio.png",
+    "tecnologias": [
+      { "name": "React", "icon": "FaReact" },
+      { "name": "Javascript", "icon": "TbBrandJavascript" },
+      { "name": "Tailwind", "icon": "RiTailwindCssFill" }
     ]
   }
 ]

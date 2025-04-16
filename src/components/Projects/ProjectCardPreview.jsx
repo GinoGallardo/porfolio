@@ -21,7 +21,7 @@ const ProjectCardPreview = ({ item, onClick }) => {
               );
             })}
           </div>
-          <Button className="text-sm text-white" onClick={onClick}>
+          <Button className="text-sm text-white cursor-pointer" onClick={onClick}>
             Ver más
           </Button>
         </div>
