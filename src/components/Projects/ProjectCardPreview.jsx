@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 
 const ProjectCardPreview = ({ item, onClick }) => {
   return (
-    <div className='w-full sm:w-[90%] md:w-[48%] flex flex-col rounded-md shadow-xs shadow-amber-600 hover:shadow-md overflow-hidden relative h-[250px]'>
+    <div className='w-full sm:w-[90%] md:w-[48%] flex flex-col rounded-md hover:text-[#f97e3e] transition duration-300 ease-in-out hover:shadow-[0_0_18px_#f97e3e] overflow-hidden relative h-[250px]'>
       <img src={item.image} alt={item.name} className="w-full h-full opacity-50" />
       <div className="absolute top-0 left-0 w-full h-full p-4 flex flex-col justify-between">
         <h2 className="text-white text-xl font-bold font-[crimson] tracking-widest md:text-2xl lg:text-4xl">

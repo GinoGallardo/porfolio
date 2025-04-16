@@ -26,13 +26,13 @@ const ProjectModal = ({ item, onClose }) => {
 
         <div className="flex gap-6 text-white">
           {item.urlRepo && (
-            <a href={item.urlRepo} target="_blank" rel="noopener noreferrer" className='hover:text-[#f97e3e]'>
-              {React.createElement(iconMap['FaGithub'], { size: 24 })}
+            <a href={item.urlRepo} target="_blank" rel="noopener noreferrer" className='hover:text-[#f97e3e] filter transition duration-300 ease-in-out hover:drop-shadow-[0_0_12px_#f97e3e]'>
+              {React.createElement(iconMap['FaGithub'], { className: 'w-6 h-6 lg:w-[30px] lg:h-[30px]' })}
             </a>
           )}
           {item.url && Icon && (
-            <a href={item.url} target="_blank" rel="noopener noreferrer" className='hover:text-[#f97e3e]'>
-              <Icon size={24} />
+            <a href={item.url} target="_blank" rel="noopener noreferrer" className='hover:text-[#f97e3e] filter transition duration-300 ease-in-out hover:drop-shadow-[0_0_12px_#f97e3e]'>
+              <Icon className='text-[24px] lg:text-[30px]' />
             </a>
           )}
         </div>
