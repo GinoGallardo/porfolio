@@ -21,8 +21,8 @@ const ProjectsLanding = () => {
           <ProjectCard key={index} item={item} />
         ))}
       </div>
-      <div className='flex flex-col justify-center items-center gap-3 p-5'>
-        <h3 className='text-xl md:text-4xl lg:text-[1.8em] xl:text-[2rem] font-bold font-[mada] tracking-widest text-center text-white lg:mt-3'>Par ver, todos los proyectos hacer click en el botón Ver todos.</h3>
+      <div className='flex flex-col max-w-7xl m-auto justify-center items-center gap-3 p-10'>
+        <h3 className='text-xl md:text-4xl lg:text-[3em] font-bold font-[mada] tracking-widest text-center px-5 text-white lg:mt-3'>Para ver, todos los proyectos hacer click en el botón Ver todos.</h3>
         <Button className='text-white cursor-pointer' onClick={handleViewAll}>Ver todos</Button>
       </div>
     </>

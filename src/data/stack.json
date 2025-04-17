@@ -1,0 +1,37 @@
+[
+  {
+    "icon": "vscode-icons:file-type-html",
+    "name": "HTML",
+    "color": "#e34c26"
+  },
+  {
+    "icon": "vscode-icons:file-type-css2",
+    "name": "CSS",
+    "color": "#264de4"
+  },
+  {
+    "icon": "devicon:react",
+    "name": "React",
+    "color": "#61dafb"
+  },
+  {
+    "icon": "material-icon-theme:javascript",
+    "name": "JavaScript",
+    "color": "#f0db4f"
+  },
+  {
+    "icon": "devicon:tailwindcss",
+    "name": "Tailwind",
+    "color": "#38bdf8"
+  },
+  {
+    "icon": "material-icon-theme:git",
+    "name": "Git",
+    "color": "#f1502f"
+  },
+  {
+    "icon": "mdi:github",
+    "name": "GitHub",
+    "color": "#ffffff"
+  }
+]
