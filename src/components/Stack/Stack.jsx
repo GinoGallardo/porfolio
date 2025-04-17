@@ -16,7 +16,6 @@ const Stack = () => {
               >
               {tech.name}
             </span>
-            {/* Icono con hover que ilumina */}
             <Icon
               icon={tech.icon}
               width={80}
