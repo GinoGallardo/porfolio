@@ -5,13 +5,13 @@ import stackItems from '../../data/stack.json'
 const Stack = () => {
 
   return (
-    <section className='max-w-7xl m-auto mb-20 flex flex-col items-center justify-center lg:py-20 lg:mt-30 border border-amber-600'>
-      <h2 className='text-4xl text-white font-bold mb-8'>Stack</h2>
-      <div className='p-6 max-w-5xl flex items-center justify-center flex-wrap gap-8'>
+    <section className='stack-glow max-w-7xl mb-20 mx-4 flex flex-col items-center justify-center rounded-2xl lg:py-20 lg:mt-30 lg:mx-auto'>
+      <h2 className='text-4xl text-white font-bold mb-8 lg:text-7xl'>Stack</h2>
+      <div className='p-6 max-w-5xl flex items-center justify-center flex-wrap gap-12 lg:gap-8'>
         {stackItems.map((tech, index) => (
           <div key={index} className='relative group flex flex-col items-center'>
             <span
-              className='absolute -top-6 text-md font-[mada] opacity-0 group-hover:opacity-100 transition duration-300 lg:text-2xl'
+              className='absolute -top-6 text-md font-[mada] opacity-100 lg:opacity-0 group-hover:opacity-100 transition duration-300 lg:text-2xl'
               style={{ color: tech.color }}
               >
               {tech.name}
