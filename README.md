@@ -69,7 +69,7 @@ El proyecto está desplegado en **Vercel**:
 
 ## 🖼️ Vista previa
 
-![Vista previa del portfolio](https://porfolio-h5y39uzeq-ginogallardos-projects.vercel.app/assets/img-profile1-DIAiSCqb.png)
+![Vista previa del porfolio](https://porfolio-gino-gallardo.vercel.app/preview.png)
 
 ---
 
