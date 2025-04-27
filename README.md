@@ -80,21 +80,29 @@ El proyecto está desplegado en **Vercel**:
 1. **Clonar el repositorio**:
 ```bash
 git clone https://github.com/GinoGallardo/porfolio
+
 2. **Instalar las dependencias**:
 ```bash
 npm install
+
 3. **Ejecutar el proyecto en modo desarrollo**:
 ```bash
 npm run dev
+
 4. **Compilar para producción**:
 ```bash
 npm run build
+
+---
 
 ## 📬 Contacto
 
 - Email: ginosgt@gmail.com
 
 - LinkedIn: www.linkedin.com/in/gino-gallardo-7053801a9
+
+
+---
 
 ## 🙌 Gracias por visitar mi portfolio
 Estoy abierto a nuevas oportunidades, proyectos freelance y colaboraciones 🚀
