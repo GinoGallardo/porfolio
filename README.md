@@ -22,19 +22,19 @@ Este proyecto es mi portafolio personal, desarrollado para mostrar mis habilidad
 - **Zod** para validación de datos
 
 ---
-
-## 🧩 Dependencias destacadas
-
-- [`@headlessui/react`](https://headlessui.dev/)
-- [`@heroicons/react`](https://heroicons.com/)
-- [`framer-motion`](https://www.framer.com/motion/)
-- [`react-router-dom`](https://reactrouter.com/)
-- [`react-hook-form`](https://react-hook-form.com/)
-- [`zod`](https://zod.dev/)
-- [`react-tsparticles`](https://github.com/matteobruni/tsparticles)
-- [`atropos`](https://atroposjs.com/)
-
-> Además de herramientas de desarrollo como ESLint, PostCSS y Autoprefixer.
+>.[!IMPORTANT].
+>## 🧩 Dependencias destacadas
+>
+>- [`@headlessui/react`](https://headlessui.dev/)
+>- [`@heroicons/react`](https://heroicons.com/)
+>- [`framer-motion`](https://www.framer.com/motion/)
+>- [`react-router-dom`](https://reactrouter.com/)
+>- [`react-hook-form`](https://react-hook-form.com/)
+>- [`zod`](https://zod.dev/)
+>- [`react-tsparticles`](https://github.com/matteobruni/tsparticles)
+>- [`atropos`](https://atroposjs.com/)
+>
+>> Además de herramientas de desarrollo como ESLint, PostCSS y Autoprefixer.
 
 ---
 
@@ -78,19 +78,15 @@ El proyecto está desplegado en **Vercel**:
 ## ⚙️ Instalación y ejecución local
 
 1. **Clonar el repositorio**:
-```bash
 git clone https://github.com/GinoGallardo/porfolio
 
 2. **Instalar las dependencias**:
-```bash
 npm install
 
 3. **Ejecutar el proyecto en modo desarrollo**:
-```bash
 npm run dev
 
 4. **Compilar para producción**:
-```bash
 npm run build
 
 ---
