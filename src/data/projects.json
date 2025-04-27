@@ -60,7 +60,7 @@
     "url": "https://porfolio-gino-gallardo.vercel.app/",
     "iconRepo": "FaGithub",
     "iconUrl": "HiMiniArrowTopRightOnSquare",
-    "image": "/image/porfolio.png",
+    "image": "/image/preview.png",
     "tecnologias": [
       { "name": "React", "icon": "FaReact" },
       { "name": "Javascript", "icon": "TbBrandJavascript" },
