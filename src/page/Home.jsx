@@ -53,7 +53,7 @@ const Home = () => {
             <p>Construyo experiencias digitales que combinan funcionalidad, diseño y accesibilidad. Me gusta convertir buenas ideas en productos que se sienten bien, se ven y funcionan aún mejor.</p>
           </div>
           <div className='flex items-center justify-between px-3 md:px-16 lg:mt-20'>
-            <Button>Descargar CV</Button>
+            <Button className='md:w-[12rem] text-2xl'>Descargar CV</Button>
             <SocialLinks />
           </div>
         </div>

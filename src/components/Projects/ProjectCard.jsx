@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import ProjectCardPreview from './ProjectCardPreview';
-import ProjectModal from './ProjectModal';
+import React, { useState } from "react";
+import ProjectCardPreview from "./ProjectCardPreview";
+import ProjectModal from "./ProjectModal";
 
 const ProjectCard = ({ item }) => {
   const [showDetails, setShowDetails] = useState(false);
