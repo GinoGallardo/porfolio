@@ -1,4 +1,3 @@
-import React from "react";
 import iconMap from "../../utils/iconMap";
 import Button from "../Button/Button";
 

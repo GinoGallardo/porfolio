@@ -12,7 +12,7 @@ const ProjectsLanding = () => {
   };
 
   return (
-    <>
+    <section className="pb-12">
       <h2 className="text-3xl md:text-4xl lg:text-[1.8em] xl:text-[4rem] font-bold font-[crimson] tracking-widest text-center text-white">
         Proyectos
       </h2>
@@ -21,7 +21,7 @@ const ProjectsLanding = () => {
           <ProjectCard key={index} item={item} />
         ))}
       </div>
-      <div className="flex flex-col max-w-7xl m-auto justify-center items-center gap-3 p-10">
+      <div className="flex flex-col max-w-7xl m-auto justify-center items-center gap-3 lg:p-10">
         <h3 className="text-xl md:text-4xl lg:text-[3em] font-bold font-[mada] tracking-widest text-center px-5 text-white lg:mt-3">
           Para ver, todos los proyectos hacer click en el botón Ver todos.
         </h3>
@@ -29,7 +29,7 @@ const ProjectsLanding = () => {
           Ver todos
         </Button>
       </div>
-    </>
+    </section>
   );
 };
 
