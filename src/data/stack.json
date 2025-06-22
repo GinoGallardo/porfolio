@@ -2,36 +2,148 @@
   {
     "icon": "vscode-icons:file-type-html",
     "name": "HTML",
-    "color": "#e34c26"
+    "color": "#e34c26",
+    "type": "Lenguaje",
+    "stack": "primary"
   },
   {
     "icon": "vscode-icons:file-type-css2",
     "name": "CSS",
-    "color": "#264de4"
-  },
-  {
-    "icon": "devicon:react",
-    "name": "React",
-    "color": "#61dafb"
+    "color": "#264de4",
+    "type": "Lenguaje",
+    "stack": "primary"
   },
   {
     "icon": "material-icon-theme:javascript",
     "name": "JavaScript",
-    "color": "#f0db4f"
+    "color": "#f0db4f",
+    "type": "Lenguaje",
+    "stack": "primary"
+  },
+  {
+    "icon": "vscode-icons:file-type-typescript-official",
+    "name": "TypeScript",
+    "color": "#3178c6",
+    "type": "Lenguaje",
+    "stack": "secondary"
+  },
+  {
+    "icon": "devicon:react",
+    "name": "React",
+    "color": "#61dafb",
+    "type": "Framework",
+    "stack": "primary"
   },
   {
     "icon": "devicon:tailwindcss",
     "name": "Tailwind",
-    "color": "#38bdf8"
+    "color": "#38bdf8",
+    "type": "Framework",
+    "stack": "primary"
+  },
+  {
+    "icon": "devicon:bootstrap",
+    "name": "Bootstrap",
+    "color": "#7952b3",
+    "type": "Framework",
+    "stack": "secondary"
+  },
+  {
+    "icon": "devicon:chakraui",
+    "name": "Chakra UI",
+    "color": "#319795",
+    "type": "Framework",
+    "stack": "secondary"
+  },
+  {
+    "icon": "tabler:brand-react-native",
+    "name": "React Icons",
+    "color": "#ff0000",
+    "type": "Framework",
+    "stack": "secondary"
+  },
+  {
+    "icon": "logos:material-ui",
+    "name": "Material UI",
+    "color": "#007fff",
+    "type": "Framework",
+    "stack": "secondary"
+  },
+  {
+    "icon": "game-icons:paint-brush",
+    "name": "UI && UX",
+    "color": "#ffffff",
+    "type": "Diseño",
+    "stack": "secondary"
+  },
+  {
+    "icon": "logos:figma",
+    "name": "Figma",
+    "color": "#f24e1e",
+    "type": "Diseño",
+    "stack": "secondary"
+  },
+  {
+    "icon": "logos:adobe-photoshop",
+    "name": "Photoshop",
+    "color": "#31a8ff",
+    "type": "Diseño",
+    "stack": "secondary"
+  },
+  {
+    "icon": "devicon:canva",
+    "name": "Canva",
+    "color": "#00c4cc",
+    "type": "Diseño",
+    "stack": "secondary"
+  },
+  {
+    "icon": "simple-icons:adobedreamweaver",
+    "name": "Dreamweaver",
+    "color": "#35fa00",
+    "type": "Diseño",
+    "stack": "secondary"
+  },
+  {
+    "icon": "devicon:mongodb",
+    "name": "MongoDB",
+    "color": "#47a248",
+    "type": "Base de datos",
+    "stack": "secondary"
+  },
+  {
+    "icon": "logos:firebase",
+    "name": "Firebase",
+    "color": "#ffca28",
+    "type": "Base de datos",
+    "stack": "secondary"
   },
   {
     "icon": "material-icon-theme:git",
     "name": "Git",
-    "color": "#f1502f"
+    "color": "#f1502f",
+    "type": "Herramienta",
+    "stack": "primary"
   },
   {
     "icon": "mdi:github",
     "name": "GitHub",
-    "color": "#ffffff"
+    "color": "#ffffff",
+    "type": "Herramienta",
+    "stack": "primary"
+  },
+  {
+    "icon": "logos:slack-icon",
+    "name": "Slack",
+    "color": "#4a154b",
+    "type": "Herramienta",
+    "stack": "secondary"
+  },
+  {
+    "icon": "logos:trello",
+    "name": "Trello",
+    "color": "#0079bf",
+    "type": "Herramienta",
+    "stack": "secondary"
   }
 ]
