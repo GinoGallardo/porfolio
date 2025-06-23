@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "../components/template/Landing";
 import Projects from "../page/Projects";
-import AboutMe from "../page/AboutMe";
+import AboutMe from "../page/AboutMe/AboutMe";
 
 const Router = () => {
   return (

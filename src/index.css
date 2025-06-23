@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Mada:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Mada:wght@300;400;500;600;700&display=swap");
 
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
 
 @import "tailwindcss";
 
-@import 'atropos/scss';
+@import "atropos/scss";
 
 * {
   margin: 0;
@@ -15,7 +15,7 @@
 
 body {
   background-color: black;
-  font-family: 'Mada', sans-serif;
+  font-family: "Mada", sans-serif;
 }
 
 .my-atropos {
@@ -35,19 +35,13 @@ body {
 
 @keyframes pulse-shadow {
   0% {
-    box-shadow:
-      0 0 10px #e47f0b,
-      inset 0 0 5px #e47f0b;
+    box-shadow: 0 0 10px #e47f0b, inset 0 0 5px #e47f0b;
   }
   50% {
-    box-shadow:
-      0 0 20px #e47f0b,
-      inset 0 0 15px #e47f0b;
+    box-shadow: 0 0 20px #e47f0b, inset 0 0 15px #e47f0b;
   }
   100% {
-    box-shadow:
-      0 0 10px #e47f0b,
-      inset 0 0 5px #e47f0b;
+    box-shadow: 0 0 10px #e47f0b, inset 0 0 5px #e47f0b;
   }
 }
 
@@ -58,7 +52,7 @@ body {
 }
 
 .stack-glow::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -69,9 +63,7 @@ body {
   background: linear-gradient(270deg, #fbbf24, #fa5305, #fbbf24);
   background-size: 400% 400%;
   animation: glowing-border 4s linear infinite;
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   z-index: -1;

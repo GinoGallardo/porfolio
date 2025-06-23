@@ -1,0 +1,80 @@
+[
+  {
+    "coderhouse": {
+      "webDevelopment": {
+        "date": "Del 10/04/23 al 31/05/23",
+        "certificate": "https://pub.coderhouse.com/legacy-certificates/63bdd24981bd15000eea9200?lang=es",
+        "classes": [
+          "Clase 0 - Introducción al Desarrollo Web",
+          "Clase 1 - Prototipado y conceptos básicos de HTML",
+          "Clase 2 - Primeros pasos con HTML",
+          "Clase 3 - Incluyendo CSS a nuestro proyecto",
+          "Clase 4 - CSS + Box Modeling",
+          "Clase 5 - Flexbox",
+          "Clase 6 - GRIDS",
+          "Clase 7 - GRIDS II",
+          "Clase 8 - Animaciones, transformaciones y transiciones",
+          "Clase 9 - GIT",
+          "Clase 10 - GITHUB",
+          "Clase 11 - Frameworks CSS + Bootstrap",
+          "Clase 12 - @Media + Pseudoclases",
+          "Clase 13 - SASS I",
+          "Clase 14 - SASS II",
+          "Clase 15 - Servidores y SEO para tu sitio",
+          "Clase 16 - Subida al servidor",
+          "Clase 17 - Conociendo a nuestro cliente"
+        ]
+      },
+      "javascript": {
+        "date": "Del 23/01/23 al 27/03/23",
+        "certificate": "https://pub.coderhouse.com/legacy-certificates/642c5b572fc3c7001a698a16?lang=es",
+        "classes": [
+          "Clase 0 - Introducción a Javascript",
+          "Clase 1 - Conceptos generales: Sintaxis y variables",
+          "Clase 2 - Control de flujos",
+          "Clase 3 - Ciclos e iteraciones",
+          "Clase 4 - Funciones",
+          "Clase 5 - Objetos",
+          "Clase 6 - Arrays",
+          "Clase 7 - Funciones de orden superior",
+          "Clase 8 - DOM",
+          "Clase 9 - Eventos",
+          "Clase 10 - Storage & JSON",
+          "Clase 11 - Workshop",
+          "Clase 12 - Operadores Avanzados",
+          "Clase 13 - Librerías",
+          "Clase 14 - Asincronía y Promesas",
+          "Clase 15 - Ajax & Fetch",
+          "Clase 16 - Frameworks & NodeJS"
+        ]
+      },
+      "react": {
+        "date": "Del 10/04/23 al 31/05/23",
+        "certificate": "https://pub.coderhouse.com/legacy-certificates/649a8afd5ae64100026bf40d?lang=es",
+        "classes": [
+          "Clase 1 - Introducción a React Js",
+          "Clase 2 - Instalación y configuración del entorno",
+          "Clase 3 - JSX y transpiling",
+          "Clase 4 - Componentes I",
+          "Clase 5 - Componentes II",
+          "Clase 6 - Promises, asincronía y MAP",
+          "Clase 7 - Consumiendo API's",
+          "Clase 8 - Workshop: Hooks, Children y Patrones",
+          "Clase 9 - Routing y navegación",
+          "Clase 10 - Eventos",
+          "Clase 11 - Context",
+          "Clase 12 - Técnicas de rendering",
+          "Clase 13 - Firebase I",
+          "Clase 14 - Firebase II",
+          "Clase 15 - Workshop final"
+        ]
+      }
+    }
+  },
+  {
+    "selfTaught": {
+      "sergieCode": {},
+      "midudev": {}
+    }
+  }
+]

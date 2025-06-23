@@ -12,8 +12,8 @@ function StackItemByType() {
   return (
     <div className="p-6 max-w-7xl mx-auto flex flex-col gap-16">
       {Object.entries(groupedByType).map(([type, items]) => (
-        <div key={type} className="flex justify-between">
-          <h2 className="text-3xl font-bold text-[#f97e3e] mb-6 tracking-widest font-[crimson] uppercase">
+        <div key={type} className="flex border-b items-center py-4 justify-between gap-10">
+          <h2 className="text-3xl font-bold text-[#f97e3e] tracking-widest font-[crimson] uppercase">
             {type}
           </h2>
           <div className="flex flex-wrap gap-16 lg:gap-10 justify-start">
