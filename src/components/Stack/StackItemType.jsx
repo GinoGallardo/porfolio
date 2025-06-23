@@ -2,7 +2,6 @@ import stackItems from "../../data/stack.json";
 import { Icon } from "@iconify/react";
 
 function StackItemByType() {
-  // Agrupar tecnologías por su propiedad 'type'
   const groupedByType = stackItems.reduce((acc, tech) => {
     if (!acc[tech.type]) acc[tech.type] = [];
     acc[tech.type].push(tech);
@@ -10,22 +9,28 @@ function StackItemByType() {
   }, {});
 
   return (
-    <div className="p-6 max-w-7xl mx-auto flex flex-col gap-16">
+    <div className="lg:p-6 max-w-7xl mx-auto flex flex-col gap-4 lg:gap-16">
       {Object.entries(groupedByType).map(([type, items]) => (
-        <div key={type} className="flex border-b items-center py-4 justify-between gap-10">
-          <h2 className="text-3xl font-bold text-[#f97e3e] tracking-widest font-[crimson] uppercase">
+        <div
+          key={type}
+          className="flex flex-col lg:flex-row border-b items-center py-4 justify-between gap-10"
+        >
+          <h2 className="text-2xl lg:text-3xl font-bold text-[#f97e3e] tracking-widest font-[crimson] uppercase">
             {type}
           </h2>
-          <div className="flex flex-wrap gap-16 lg:gap-10 justify-start">
+          <div className="flex flex-wrap gap-8 lg:gap-10 justify-center lg:justify-start">
             {items.map((tech, index) => (
-              <div key={index} className="relative group flex flex-col items-center">
+              <div
+                key={index}
+                className="relative group flex flex-col items-center"
+              >
                 <span
-                  className="absolute -top-8 text-md font-[mada] lg:opacity-0 group-hover:opacity-100 transition duration-300 text-center"
+                  className="absolute w-[100px] -top-8 text-md font-[mada] lg:opacity-0 group-hover:opacity-100 transition duration-300 text-center"
                   style={{ color: tech.color }}
                 >
                   {tech.name}
                 </span>
-                <div className="w-[100px] h-[100px] flex items-center justify-center">
+                <div className="w-[70px] lg:w-[100px] h-[70px] lg:h-[100px] flex items-center justify-center">
                   <Icon
                     icon={tech.icon}
                     width="100%"
