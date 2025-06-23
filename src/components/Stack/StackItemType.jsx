@@ -15,7 +15,7 @@ function StackItemByType() {
           key={type}
           className="flex flex-col lg:flex-row border-b items-center py-4 justify-between gap-10"
         >
-          <h2 className="text-2xl lg:text-3xl font-bold text-[#f97e3e] tracking-widest font-[crimson] uppercase">
+          <h2 className="text-2xl lg:text-3xl font-bold text-[#f97e3e] tracking-widest font-[crimson]">
             {type}
           </h2>
           <div className="flex flex-wrap gap-8 lg:gap-10 justify-center lg:justify-start">

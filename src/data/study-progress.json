@@ -6,25 +6,59 @@
         "date": "Del 17/10/22 al 19/12/22",
         "certificate": "https://pub.coderhouse.com/legacy-certificates/63bdd24981bd15000eea9200?lang=es",
         "description": "Durante este curso aprendí los fundamentos del desarrollo web, incluyendo la estructura con HTML y el diseño con CSS. Profundicé en conceptos como box model, Flexbox y Grid para maquetación responsiva. Implementé animaciones, transiciones y transformaciones, y utilicé herramientas modernas como Bootstrap, SASS y pseudoclases. Además, trabajé con control de versiones usando Git y GitHub, enfoques de diseño adaptativo con media queries y técnicas básicas de SEO. Finalizamos aprendiendo sobre despliegue en servidores y la relación con el cliente final."
-    },
-    "javascript": {
-      "name": "Javascript",
-      "date": "Del 23/01/23 al 27/03/23",
-      "certificate": "https://pub.coderhouse.com/legacy-certificates/642c5b572fc3c7001a698a16?lang=es",
-      "description": "Este curso me permitió dominar las bases de JavaScript, desde la sintaxis, variables y estructuras de control hasta el uso avanzado de funciones, objetos y arrays. Aprendí a manipular el DOM, gestionar eventos y trabajar con almacenamiento local usando JSON. Además, incorporé el uso de funciones de orden superior, asincronía con promesas, peticiones HTTP con Fetch y conocimientos sobre frameworks y Node.js. Se incluyeron ejercicios prácticos y workshops que consolidaron mi aprendizaje de forma aplicada."
-    },
-    "react": {
-      "name": "React Js",
-      "date": "Del 10/04/23 al 31/05/23",
-      "certificate": "https://pub.coderhouse.com/legacy-certificates/649a8afd5ae64100026bf40d?lang=es",
-      "description": "En este curso profundicé en el desarrollo de interfaces con React, comenzando por la instalación del entorno y la sintaxis JSX. Aprendí a construir componentes reutilizables, trabajar con estados y props, y a gestionar flujos asincrónicos con Promises y métodos como map(). Me enfoqué en el consumo de APIs, navegación con React Router y el manejo de eventos. También exploré patrones de diseño con Hooks y Context para el manejo global del estado. Finalmente, implementé proyectos prácticos con Firebase como backend y técnicas modernas de renderizado, consolidando mis conocimientos en un workshop final."
+      },
+      "javascript": {
+        "name": "Javascript",
+        "date": "Del 23/01/23 al 27/03/23",
+        "certificate": "https://pub.coderhouse.com/legacy-certificates/642c5b572fc3c7001a698a16?lang=es",
+        "description": "Este curso me permitió dominar las bases de JavaScript, desde la sintaxis, variables y estructuras de control hasta el uso avanzado de funciones, objetos y arrays. Aprendí a manipular el DOM, gestionar eventos y trabajar con almacenamiento local usando JSON. Además, incorporé el uso de funciones de orden superior, asincronía con promesas, peticiones HTTP con Fetch y conocimientos sobre frameworks y Node.js. Se incluyeron ejercicios prácticos y workshops que consolidaron mi aprendizaje de forma aplicada."
+      },
+      "react": {
+        "name": "React Js",
+        "date": "Del 10/04/23 al 31/05/23",
+        "certificate": "https://pub.coderhouse.com/legacy-certificates/649a8afd5ae64100026bf40d?lang=es",
+        "description": "En este curso profundicé en el desarrollo de interfaces con React, comenzando por la instalación del entorno y la sintaxis JSX. Aprendí a construir componentes reutilizables, trabajar con estados y props, y a gestionar flujos asincrónicos con Promises y métodos como map(). Me enfoqué en el consumo de APIs, navegación con React Router y el manejo de eventos. También exploré patrones de diseño con Hooks y Context para el manejo global del estado. Finalmente, implementé proyectos prácticos con Firebase como backend y técnicas modernas de renderizado, consolidando mis conocimientos en un workshop final."
+      }
+    }
+  },
+  {
+    "selfTaught": {
+      "javascript": {
+        "name": "Javascript",
+        "description": "Lo que he aprendido con este curso es a dominar los fundamentos de JavaScript, desde variables y tipos de datos hasta el manejo de objetos, funciones y control de flujo, incluyendo conceptos avanzados como la programación asíncrona con promesas y el uso de APIs.",
+        "exercises": [
+          {
+            "name": "Calculadora",
+            "description": "En este tutorial he aprendido a crear una calculadora funcional utilizando JavaScript. Me enfoqué principalmente en la lógica del lenguaje, mientras que el HTML y el CSS ya estaban disponibles en el repositorio. Implementé funciones para agregar valores a la pantalla, realizar cálculos con eval() y limpiar la pantalla. Fue una excelente práctica para reforzar mis conocimientos en manipulación del DOM y el funcionamiento básico de una calculadora. Podés ver el resultado final en el enlace: CALCULADORA TRABAJO TERMINADO.",
+            "url": "https://calculadora-curso-js-gino.netlify.app/"
+          },
+          {
+            "name": "Un Juego de Adivinanza",
+            "description": "En este tutorial he aprendido a desarrollar un juego de adivinanza en JavaScript. El objetivo del juego es que el usuario adivine un número aleatorio generado por el programa entre 1 y 100. Trabajé con funciones para validar la entrada del usuario, generar números aleatorios y mostrar mensajes personalizados según el resultado. También reforcé mis conocimientos sobre manipulación del DOM y validaciones básicas. Podés ver el resultado final en el enlace: JUEGO ADIVINANZA TRABAJO TERMINADO.",
+            "url": "https://juego-adivinaelnumero-js-gino.netlify.app/"
+          },
+          {
+            "name": "Un sistema de Venta de Viajes",
+            "description": "En este tutorial he aprendido a crear una aplicación de venta de viajes utilizando JavaScript. La app permite mostrar información sobre distintas ciudades turísticas y sus precios. Trabajé con la manipulación del DOM para actualizar dinámicamente el contenido según la ciudad seleccionada, usando eventos de click y clases activas. También aprendí a organizar los datos en un archivo externo (ciudades.js) y a integrarlos de forma eficiente en la interfaz. Fue una excelente práctica para aplicar lógica y estructura en un proyecto más completo. Podés ver el resultado final en el enlace: VENTA VIAJES FINALIZADO.",
+            "url": "https://venta-viajes-curso-js-gino.netlify.app/"
+          },
+          {
+            "name": "Una Aplicación del Clima",
+            "description": "En este tutorial he aprendido a crear una aplicación de clima utilizando JavaScript y la API de OpenWeatherMap. Implementé funciones para obtener datos en tiempo real del clima de una ciudad ingresada por el usuario, y mostrar información como la temperatura, humedad, descripción e icono correspondiente. Fue una excelente práctica para trabajar con peticiones fetch, manejo de datos JSON, manipulación del DOM y uso de APIs externas. También aprendí a estructurar mejor mi código para mostrar los resultados de forma clara y dinámica. Podés ver el resultado final en el enlace: APLICACION DE CLIMA TRABAJO FINALIZADO.",
+            "url": "https://aplicacion-clima-js-gino.netlify.app/"
+          },
+          {
+            "name": "Un validador de formularios",
+            "description": "En este tutorial he aprendido a crear un formulario con validaciones en JavaScript que guarda los datos ingresados en una base de datos de Firebase. Implementé validaciones personalizadas para el nombre, el correo electrónico y la contraseña usando expresiones regulares y manejo de errores en el DOM. También aprendí a conectar mi proyecto con Firebase, inicializar Firestore y enviar datos a la colección 'users'. Esta práctica me ayudó a reforzar conceptos de validación, manejo de eventos y conexión con bases de datos en tiempo real. Fue una experiencia muy útil para entender cómo funcionan las aplicaciones dinámicas conectadas a servicios externos como Firebase.",
+            "url": "https://app.netlify.com/projects/form-js-firebase/overview"
+          },
+          {
+            "name": "Un Buscador de Películas",
+            "description": "En este tutorial he aprendido a crear una aplicación de buscador de películas utilizando JavaScript y la API de The Movie Database (TMDb). Implementé funciones para buscar películas por nombre, hacer peticiones a la API con fetch y mostrar dinámicamente los resultados, incluyendo título, fecha de estreno, descripción y póster. También trabajé con la manipulación del DOM para renderizar cada resultado en pantalla. Esta práctica me ayudó a afianzar el uso de APIs externas, el manejo de respuestas JSON y la interacción dinámica con el usuario. Podés ver el resultado final en el enlace: BUSCADOR PELICULAS FINALIZADO.",
+            "url": "https://calculadora-tutorial-js.netlify.app/https://buscador-info-peliculas-js.netlify.app/"
+          }
+        ]
+      }
     }
   }
-},
-{
-  "selfTaught": {
-    "sergieCode": {},
-    "midudev": {}
-  }
-}
 ]
