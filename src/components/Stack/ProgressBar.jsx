@@ -13,7 +13,7 @@ export function ProgressBar({ intervalTime, currentIndex }) {
 
   return (
     <div className="w-full flex items-center justify-center mt-6">
-      <div className="h-1 w-6/12 bg-white/20 rounded-full overflow-hidden">
+      <div className="h-1 w-10/12 lg:w-6/12 bg-white/20 rounded-full overflow-hidden">
         <div
           ref={progressRef}
           className="h-full bg-[#f97e3e] animate-progress rounded-full"

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion as Motion } from "framer-motion";
 import stackItems from "../../data/stack.json";
 import { StackItemMe } from "./StackItemMe";
-import { StackNavigation } from "./StackNavigation";
+import { NavigatePrev, NavigateNext } from "./StackNavigation";
 import { ProgressBar } from "./ProgressBar";
 
 const intervalTime = 6000;
@@ -53,14 +53,14 @@ export default function StackItemByType() {
         {currentType}
       </h2>
       <div className="relative flex items-center justify-between w-full overflow-hidden px-2">
-        <StackNavigation onPrev={handlePrev} onNext={handleNext} />
+        <NavigatePrev onPrev={handlePrev}/>
         <div className="flex-1 h-[300px] flex justify-center">
           <AnimatePresence mode="wait">
             <Motion.div
               key={currentType}
-              initial={{ x: direction === 1 ? 200 : -300, opacity: 0 }}
+              initial={{ x: direction === 1 ? 300 : -300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              exit={{ x: direction === 1 ? -300 : 200, opacity: 0 }}
+              exit={{ x: direction === 1 ? -300 : 300, opacity: 0 }}
               transition={{ duration: 0.6, ease: "easeInOut" }}
               className="w-full flex justify-center items-center gap-6 flex-wrap"
             >
@@ -70,6 +70,7 @@ export default function StackItemByType() {
             </Motion.div>
           </AnimatePresence>
         </div>
+        <NavigateNext onNext={handleNext} />
       </div>
       <ProgressBar intervalTime={intervalTime} currentIndex={currentIndex} />
     </div>
