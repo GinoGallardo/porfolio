@@ -72,8 +72,9 @@ body {
 @layer utilities {
   .animate-progress {
     animation: progressBar linear forwards;
+    box-shadow: 0 0 10px #e47f0b, inset 0 0 10px #e47f0b;
   }
-
+  
   @keyframes progressBar {
     from {
       transform: scaleX(0);

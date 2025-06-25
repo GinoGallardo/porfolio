@@ -1,12 +1,13 @@
-import { useEffect, useState, useRef } from "react";
-import { Icon } from "@iconify/react";
-import { AnimatePresence } from "framer-motion";
-import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion as Motion } from "framer-motion";
 import stackItems from "../../data/stack.json";
+import { StackItemMe } from "./StackItemMe";
+import { StackNavigation } from "./StackNavigation";
+import { ProgressBar } from "./ProgressBar";
 
 const intervalTime = 6000;
 
-function StackItemCarousel() {
+export default function StackItemByType() {
   const groupedByType = stackItems.reduce((acc, tech) => {
     if (!acc[tech.type]) acc[tech.type] = [];
     acc[tech.type].push(tech);
@@ -17,7 +18,6 @@ function StackItemCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(1);
   const [isPaused, setIsPaused] = useState(false);
-  const progressRef = useRef();
 
   const handleNext = () => {
     setDirection(1);
@@ -43,95 +43,35 @@ function StackItemCarousel() {
   const currentType = typeKeys[currentIndex];
   const currentItems = groupedByType[currentType];
 
-  // Reset animation for progress bar
-  useEffect(() => {
-    if (progressRef.current) {
-      progressRef.current.classList.remove("animate-progress");
-      void progressRef.current.offsetWidth; // trigger reflow
-      progressRef.current.classList.add("animate-progress");
-    }
-  }, [currentIndex]);
-
   return (
     <div
-      className="relative w-full max-w-7xl mx-auto py-10 text-center overflow-hidden"
+      className="w-full max-w-7xl mx-auto py-10 text-center"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
       <h2 className="text-3xl font-bold text-[#f97e3e] mb-6 tracking-widest font-[crimson]">
         {currentType}
       </h2>
-
-      <div className="relative h-[180px]">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentType}
-            initial={{ x: direction === 1 ? 300 : -300, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: direction === 1 ? -300 : 300, opacity: 0 }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
-            className="absolute top-0 left-0 w-full flex justify-center gap-6 flex-wrap"
-          >
-            {currentItems.map((tech, index) => (
-              <div
-                key={index}
-                className="relative group flex flex-col items-center"
-              >
-                <span
-                  className="absolute w-[100px] -top-8 text-sm opacity-0 group-hover:opacity-100 transition duration-300 text-center font-[mada]"
-                  style={{ color: tech.color }}
-                >
-                  {tech.name}
-                </span>
-                <div className="w-[70px] lg:w-[100px] h-[70px] lg:h-[100px] flex items-center justify-center">
-                  <Icon
-                    icon={tech.icon}
-                    width="100%"
-                    height="100%"
-                    className="transition duration-300 group-hover:scale-110 object-contain"
-                    color={tech.color}
-                    style={{
-                      filter: `drop-shadow(0 0 0px transparent)`,
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.filter = `drop-shadow(0 0 12px ${tech.color})`;
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.filter = `drop-shadow(0 0 0px transparent)`;
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </motion.div>
-        </AnimatePresence>
+      <div className="relative flex items-center justify-between w-full overflow-hidden px-2">
+        <StackNavigation onPrev={handlePrev} onNext={handleNext} />
+        <div className="flex-1 h-[300px] flex justify-center">
+          <AnimatePresence mode="wait">
+            <Motion.div
+              key={currentType}
+              initial={{ x: direction === 1 ? 200 : -300, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: direction === 1 ? -300 : 200, opacity: 0 }}
+              transition={{ duration: 0.6, ease: "easeInOut" }}
+              className="w-full flex justify-center items-center gap-6 flex-wrap"
+            >
+              {currentItems.map((tech, index) => (
+                <StackItemMe key={index} tech={tech} />
+              ))}
+            </Motion.div>
+          </AnimatePresence>
+        </div>
       </div>
-
-      {/* Progress bar */}
-      <div className="w-full flex items-center justify-center ">
-        <div className="h-1 w-6/12 bg-white/20 mb-4">
-        <div
-          ref={progressRef}
-          className="h-full animate-progress origin-left stack-glow rounded-full"
-          style={{ animationDuration: `${intervalTime}ms` }}
-        />
-      </div>
-      </div>
-      {/* Flechas */}
-      <button
-        onClick={handlePrev}
-        className="absolute top-1/2 -translate-y-1/2 left-4 text-[#f97e3e] bg-white/20 backdrop-blur-md rounded-full p-2 hover:bg-white/40 transition"
-      >
-        ‹
-      </button>
-      <button
-        onClick={handleNext}
-        className="absolute top-1/2 -translate-y-1/2 right-4 text-[#f97e3e] bg-white/20 backdrop-blur-md rounded-full p-2 hover:bg-white/40 transition"
-      >
-        ›
-      </button>
+      <ProgressBar intervalTime={intervalTime} currentIndex={currentIndex} />
     </div>
   );
 }
-
-export default StackItemCarousel;
