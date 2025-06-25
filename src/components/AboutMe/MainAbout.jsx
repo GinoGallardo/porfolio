@@ -2,18 +2,18 @@ import imgAbout from "../../assets/about-me.png";
 
 function MainAbout() {
   return (
-    <main className="text-white text-lg leading-relaxed">
+    <main className="text-white flex-wrap items-center justify-center text-lg leading-relaxed">
       <img
         src={imgAbout}
         alt="soy Gino gallardo desarrollador frontend"
-        className="md:float-left w-[15em] h-[15em] md:w-[22em] md:h-[22em] rounded-full md:shape-image mr-12 mb-1"
+        className="md:float-left w-[12em] h-[12em] lg:w-[22em] lg:h-[22em] rounded-full md:shape-image mr-12 mb-1"
         style={{
           shapeOutside: "circle()",
           WebkitShapeOutside: "circle()",
           clipPath: "circle()",
         }}
       />
-      <p className="text-xl lg:text-4xl lg:leading-17 tracking-widest">
+      <p className="text-xl md:text-2xl lg:text-4xl md:leading-10 lg:leading-17 -tracking-wide md:tracking-widest">
         Soy{' '}
         <span className="text-[#f97e3e] font-semibold italic">
            desarrollador frontend

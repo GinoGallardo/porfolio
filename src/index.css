@@ -68,3 +68,18 @@ body {
   mask-composite: exclude;
   z-index: -1;
 }
+
+@layer utilities {
+  .animate-progress {
+    animation: progressBar linear forwards;
+  }
+
+  @keyframes progressBar {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+}

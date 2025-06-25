@@ -14,7 +14,7 @@ function SectionMe() {
   if (!hasHadBirthdayThisYear) age--;
 
   return (
-    <div className="w-full flex flex-col mt-2 lg:mt-30 lg:flex-row gap-10 items-center">
+    <div className="w-full flex flex-col mt-15 lg:mt-20 lg:flex-row gap-10 items-center">
       <img
         src={ImgAbout}
         alt="Gino Gallardo desarrollador frontend"
