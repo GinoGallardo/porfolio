@@ -4,7 +4,7 @@ export function StackItemMe({ tech }) {
   return (
     <div className="relative group flex flex-col items-center">
       <span
-        className="absolute w-[100px] -top-8 text-sm opacity-0 group-hover:opacity-100 transition duration-300 text-center font-[mada]"
+        className="absolute w-[100px] -top-8 text-sm lg:opacity-0 group-hover:opacity-100 transition duration-300 text-center font-[mada]"
         style={{ color: tech.color }}
       >
         {tech.name}

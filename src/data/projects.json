@@ -1,14 +1,46 @@
 [
   {
+    "name": "ECOS",
+    "description": "Ecos es una plataforma digital creada para músicos independientes que desean difundir su trabajo, gestionar su carrera artística y monetizar de manera justa sus creaciones. Ofrece un espacio propio para compartir contenido musical, conectar con otros profesionales del sector y acceder a herramientas que simplifican la gestión artística.",
+    "urlRepo": "https://github.com/FooTalentGroup/Ecos",
+    "url": "https://ftg-ecos.netlify.app/",
+    "iconRepo": "FaGithub",
+    "iconUrl": "HiMiniArrowTopRightOnSquare",
+    "image": "../../image/ecos.png",
+    "tecnologias": [
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TbBrandTypescript"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "RiTailwindCssFill"
+      }
+    ]
+  },
+  {
     "name": "Reffindr",
     "description": "Webapp de solución PropTech para el mercado inmobiliario desarrollada en sólo 4 semanas, con una arquitectura compleja con frontend en React, TypeScrip, Chakra.",
     "urlRepo": "https://github.com/IgrowkerTraining/i004-reffindr-front",
     "iconRepo": "FaGithub",
     "image": "../../image/reffindr.png",
     "tecnologias": [
-      { "name": "React", "icon": "FaReact" },
-      { "name": "TypeScript", "icon": "TbBrandTypescript" },
-      { "name": "Chakra", "icon": "FaDharmachakra" }
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TbBrandTypescript"
+      },
+      {
+        "name": "Chakra",
+        "icon": "FaDharmachakra"
+      }
     ]
   },
   {
@@ -20,9 +52,18 @@
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/barilo.png",
     "tecnologias": [
-      { "name": "React", "icon": "FaReact" },
-      { "name": "TypeScript", "icon": "TbBrandTypescript" },
-      { "name": "Tailwind", "icon": "RiTailwindCssFill" }
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TbBrandTypescript"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "RiTailwindCssFill"
+      }
     ]
   },
   {
@@ -34,9 +75,18 @@
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/iglesia-de-urquiza.png",
     "tecnologias": [
-      { "name": "React", "icon": "FaReact" },
-      { "name": "Javascript", "icon": "TbBrandJavascript" },
-      { "name": "Tailwind", "icon": "RiTailwindCssFill" }
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "Javascript",
+        "icon": "TbBrandJavascript"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "RiTailwindCssFill"
+      }
     ]
   },
   {
@@ -48,9 +98,18 @@
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/buscador-de-películas.png",
     "tecnologias": [
-      { "name": "React", "icon": "FaReact" },
-      { "name": "Javascript", "icon": "TbBrandJavascript" },
-      { "name": "Bootstrap", "icon": "FaBootstrap" }
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "Javascript",
+        "icon": "TbBrandJavascript"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "FaBootstrap"
+      }
     ]
   },
   {
@@ -62,9 +121,18 @@
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/preview.png",
     "tecnologias": [
-      { "name": "React", "icon": "FaReact" },
-      { "name": "Javascript", "icon": "TbBrandJavascript" },
-      { "name": "Tailwind", "icon": "RiTailwindCssFill" }
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "Javascript",
+        "icon": "TbBrandJavascript"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "RiTailwindCssFill"
+      }
     ]
   }
 ]

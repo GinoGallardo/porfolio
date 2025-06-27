@@ -1,11 +1,12 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import learningPath from "../../data/study-progress.json";
+import CardAutodidactProyect from "./CardAutodidactProyect";
 
 const StudeAutodidact = () => {
   const autodidact = learningPath[1]?.selfTaught ?? {};
 
   return (
-    <li className="max-w-7xl mx-auto flex flex-col gap-6">
+    <li className="max-w-7xl flex flex-col gap-6">
           <span className="text-[#f97e3e] text-xl md:text-2xl font-semibold">
             2023 - 2025
           </span>
@@ -31,28 +32,7 @@ const StudeAutodidact = () => {
                 <p className="leading-relaxed tracking-tight">
                   {resource.description}
                 </p>
-
-                {resource.exercises?.length > 0 && (
-                  <ul className="flex flex-col gap-4 mt-4">
-                    {resource.exercises.map((exercise, index) => (
-                      <li key={index} className="border-b border-white/20 pb-4">
-                        <strong className="text-[#f97e3e]">
-                          {exercise.name}:
-                        </strong>{" "}
-                        {exercise.description}
-                        <br />
-                        <a
-                          href={exercise.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-[#f97e3e] underline mt-1"
-                        >
-                          Ver proyecto <FaExternalLinkAlt className="w-3 h-3" />
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                )}
+                  <CardAutodidactProyect />
               </div>
             ))}
           </div>
