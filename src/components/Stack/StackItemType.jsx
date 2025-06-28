@@ -5,7 +5,7 @@ import { StackItemMe } from "./StackItemMe";
 import { NavigatePrev, NavigateNext } from "./StackNavigation";
 import { ProgressBar } from "./ProgressBar";
 
-const intervalTime = 6000;
+const intervalTime = 3000;
 
 export default function StackItemByType() {
   const groupedByType = stackItems.reduce((acc, tech) => {
@@ -61,7 +61,7 @@ export default function StackItemByType() {
               initial={{ x: direction === 1 ? 300 : -300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: direction === 1 ? -300 : 300, opacity: 0 }}
-              transition={{ duration: 0.6, ease: "easeInOut" }}
+              transition={{ duration: 0.4, ease: "easeInOut" }}
               className="w-full flex justify-center items-center gap-6 flex-wrap"
             >
               {currentItems.map((tech, index) => (

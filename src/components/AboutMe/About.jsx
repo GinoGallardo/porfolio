@@ -10,7 +10,7 @@ function About() {
   };
 
   return (
-    <section className="max-w-7xl mx-auto text-xl lg:text-3xl my-7 py-6 lg:py-12 px-6 lg:not-visited:mt-20 flex flex-col gap-y-4 text-white">
+    <section id="aboutMe" className="max-w-7xl mx-auto text-xl lg:text-3xl my-7 py-6 lg:py-12 px-6 lg:not-visited:mt-20 flex flex-col gap-y-4 text-white">
       <h3 className="text-4xl text-center text-white font-bold lg:mb-8 lg:text-7xl">
         Sobre mi
       </h3>

@@ -5,7 +5,7 @@ import imageProfile from "../assets/img-profile1.png";
 import Atropos from "atropos/react";
 import "atropos/css";
 
-const        Home = () => {
+const Home = () => {
   const [opacity, setOpacity] = useState(1);
 
   useEffect(() => {

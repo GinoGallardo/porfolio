@@ -1,4 +1,3 @@
-import React from "react";
 import projects from "../../data/projects.json";
 import ProjectCard from "./ProjectCard";
 import Button from "../Button/Button";
@@ -12,7 +11,7 @@ const ProjectsLanding = () => {
   };
 
   return (
-    <section className="pb-12">
+    <section id="proyects" className="pb-12">
       <h2 className="text-3xl md:text-4xl lg:text-[1.8em] xl:text-[4rem] font-bold font-[crimson] tracking-widest text-center text-white">
         Proyectos
       </h2>

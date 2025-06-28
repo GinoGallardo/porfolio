@@ -74,7 +74,7 @@ body {
     animation: progressBar linear forwards;
     box-shadow: 0 0 10px #e47f0b, inset 0 0 10px #e47f0b;
   }
-  
+
   @keyframes progressBar {
     from {
       transform: scaleX(0);
@@ -83,4 +83,33 @@ body {
       transform: scaleX(1);
     }
   }
+}
+
+.custom-scroll::-webkit-scrollbar {
+  height: 4px;
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #f97e3e;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.parallax {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.parallax .scroller {
+  display: inline-flex;
+  gap: 2rem;
 }

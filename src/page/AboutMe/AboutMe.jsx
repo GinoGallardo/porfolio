@@ -15,7 +15,7 @@ function AboutMe() {
   }, []);
 
   const previusHome = () => {
-    navigate("/");
+    navigate("/#aboutMe");
   };
 
   return (

@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 function StackItem() {
   const primaryStack = stackItems.filter((tech) => tech.stack === "primary");
   return (
-    <div className="p-6 max-w-5xl flex items-center justify-center flex-wrap gap-12 lg:gap-8">
+    <div className="p-2 max-w-5xl flex items-center justify-center flex-wrap gap-12 lg:gap-8">
       {primaryStack.map((tech, index) => (
         <div key={index} className="relative group flex flex-col items-center">
           <span
@@ -15,7 +15,7 @@ function StackItem() {
           </span>
           <Icon
             icon={tech.icon}
-            width={80}
+            width={window.innerWidth >= 1024 ? 150 : 80}
             className="transition duration-300 mt-1 group-hover:scale-110"
             color={tech.color}
             style={{

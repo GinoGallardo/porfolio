@@ -1,9 +1,9 @@
 import React from 'react'
 
 const products = [
-  { name: 'Proyectos', href: '#'},
-  { name: 'Habilidades', href: '#'},
-  { name: 'Sobre mi', href: '#'},
+  { name: 'Proyectos', href: '/#proyects'},
+  { name: 'Habilidades', href: '/#stack'},
+  { name: 'Sobre mi', href: '/#aboutMe'},
   { name: 'Contactos', href: '#' },
 ]
 
