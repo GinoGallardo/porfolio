@@ -7,6 +7,7 @@
     "iconRepo": "FaGithub",
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "../../image/ecos.png",
+    "type": "Experiencia",
     "tecnologias": [
       {
         "name": "React",
@@ -28,6 +29,7 @@
     "urlRepo": "https://github.com/IgrowkerTraining/i004-reffindr-front",
     "iconRepo": "FaGithub",
     "image": "../../image/reffindr.png",
+    "type": "Experiencia",
     "tecnologias": [
       {
         "name": "React",
@@ -51,6 +53,7 @@
     "iconRepo": "FaGithub",
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/barilo.png",
+    "type": "Experiencia",
     "tecnologias": [
       {
         "name": "React",
@@ -74,6 +77,7 @@
     "iconRepo": "FaGithub",
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/iglesia-de-urquiza.png",
+    "type": "Práctica",
     "tecnologias": [
       {
         "name": "React",
@@ -97,6 +101,7 @@
     "iconRepo": "FaGithub",
     "iconUrl": "HiMiniArrowTopRightOnSquare",
     "image": "/image/buscador-de-películas.png",
+    "type": "Práctica",
     "tecnologias": [
       {
         "name": "React",
@@ -113,13 +118,14 @@
     ]
   },
   {
-    "name": "Porfolio ginogt",
-    "description": "Portafolio personal desarrollado con React, TailwindCSS y JavaScript. Presenta mis proyectos, habilidades y experiencia de forma visual, clara y responsive, con enfoque en diseño limpio y navegación intuitiva.",
-    "urlRepo": "https://github.com/GinoGallardo/porfolio",
-    "url": "https://porfolio-gino-gallardo.vercel.app/",
+    "name": "Lenceria Ruth",
+    "description": "Lencería Ruth es una tienda online de ropa interior femenina desarrollada con React y desplegada en Vercel, que ofrece una experiencia de compra visualmente atractiva, sencilla y segura. La plataforma cuenta con un catálogo dinámico que incluye filtros y búsqueda para facilitar la navegación, además de un carrito de compras intuitivo y un proceso de pago optimizado. Su diseño elegante y responsivo se adapta perfectamente a dispositivos móviles y escritorio, brindando una excelente experiencia de usuario. También está optimizada para SEO y carga rápida, mejorando la visibilidad en buscadores. Este proyecto demuestra habilidades en desarrollo frontend, diseño UI/UX y despliegue en plataformas modernas.",
+    "urlRepo": "https://github.com/GinoGallardo/proyecto-react-js",
+    "url": "https://lenceriaruth.vercel.app/",
     "iconRepo": "FaGithub",
     "iconUrl": "HiMiniArrowTopRightOnSquare",
-    "image": "/image/preview.png",
+    "image": "/image/lenceria-ruth.png",
+    "type": "Práctica",
     "tecnologias": [
       {
         "name": "React",
@@ -130,8 +136,12 @@
         "icon": "TbBrandJavascript"
       },
       {
-        "name": "Tailwind",
-        "icon": "RiTailwindCssFill"
+        "name": "Bootstrap",
+        "icon": "FaBootstrap"
+      },
+      {
+        "name": "Firebase",
+        "icon": "SiFirebase"
       }
     ]
   }

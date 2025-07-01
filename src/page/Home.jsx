@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SocialLinks from "../components/SocialLinks/SocialLinks.jsx";
 import Button from "../components/Button/Button.jsx";
-import imageProfile from "../assets/img-profile1.png";
+import imageProfile from "../assets/gino-anteojos-negros.png";
 import Atropos from "atropos/react";
 import "atropos/css";
 
@@ -27,7 +27,7 @@ const Home = () => {
         style={{ opacity }}
       >
         <Atropos
-          className="w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-xl overflow-hidden"
+          className="w-full h-full rounded-xl overflow-hidden"
           activeOffset={40}
           shadowScale={1.05}
           shadow={true}
@@ -38,7 +38,7 @@ const Home = () => {
             src={imageProfile}
             alt="Perfil de Gino Gallardo"
             data-atropos-offset="8"
-            className="w-full h-full "
+            className="drop-shadow-2xl pb-16 drop-shadow-[#f97f3e2d]"
           />
         </Atropos>
 

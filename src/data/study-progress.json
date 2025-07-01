@@ -30,28 +30,28 @@
           {
             "name": "Calculadora",
             "image": "../../image/calculadora.png",
-            "description": "En este tutorial he aprendido a crear una calculadora funcional utilizando JavaScript. Me enfoqué principalmente en la lógica del lenguaje, mientras que el HTML y el CSS ya estaban disponibles en el repositorio. Implementé funciones para agregar valores a la pantalla, realizar cálculos con eval() y limpiar la pantalla. Fue una excelente práctica para reforzar mis conocimientos en manipulación del DOM y el funcionamiento básico de una calculadora. Podés ver el resultado final en el enlace: CALCULADORA TRABAJO TERMINADO.",
+            "description": "En este tutorial he aprendido a crear una calculadora funcional utilizando JavaScript. Me enfoqué principalmente en la lógica del lenguaje, mientras que el HTML y el CSS ya estaban disponibles en el repositorio. Implementé funciones para agregar valores a la pantalla, realizar cálculos con eval() y limpiar la pantalla. Fue una excelente práctica para reforzar mis conocimientos en manipulación del DOM y el funcionamiento básico de una calculadora.",
             "url": "https://calculadora-curso-js-gino.netlify.app/",
             "repositoryURL": "https://github.com/GinoGallardo/calculadora-curso-js"
           },
           {
             "name": "Juego de Adivinanza",
             "image": "../../image/adivina-el-numero.png",
-            "description": "En este tutorial he aprendido a desarrollar un juego de adivinanza en JavaScript. El objetivo del juego es que el usuario adivine un número aleatorio generado por el programa entre 1 y 100. Trabajé con funciones para validar la entrada del usuario, generar números aleatorios y mostrar mensajes personalizados según el resultado. También reforcé mis conocimientos sobre manipulación del DOM y validaciones básicas. Podés ver el resultado final en el enlace: JUEGO ADIVINANZA TRABAJO TERMINADO.",
+            "description": "En este tutorial he aprendido a desarrollar un juego de adivinanza en JavaScript. El objetivo del juego es que el usuario adivine un número aleatorio generado por el programa entre 1 y 100. Trabajé con funciones para validar la entrada del usuario, generar números aleatorios y mostrar mensajes personalizados según el resultado. También reforcé mis conocimientos sobre manipulación del DOM y validaciones básicas.",
             "url": "https://juego-adivinaelnumero-js-gino.netlify.app/",
             "repositoryURL": "https://github.com/GinoGallardo/juego-adivinaNum-cursoJS"
           },
           {
             "name": "sistema de Venta de Viajes",
             "image": "../../image/venta-pasajes.png",
-            "description": "En este tutorial he aprendido a crear una aplicación de venta de viajes utilizando JavaScript. La app permite mostrar información sobre distintas ciudades turísticas y sus precios. Trabajé con la manipulación del DOM para actualizar dinámicamente el contenido según la ciudad seleccionada, usando eventos de click y clases activas. También aprendí a organizar los datos en un archivo externo (ciudades.js) y a integrarlos de forma eficiente en la interfaz. Fue una excelente práctica para aplicar lógica y estructura en un proyecto más completo. Podés ver el resultado final en el enlace: VENTA VIAJES FINALIZADO.",
+            "description": "En este tutorial he aprendido a crear una aplicación de venta de viajes utilizando JavaScript. La app permite mostrar información sobre distintas ciudades turísticas y sus precios. Trabajé con la manipulación del DOM para actualizar dinámicamente el contenido según la ciudad seleccionada, usando eventos de click y clases activas. También aprendí a organizar los datos en un archivo externo (ciudades.js) y a integrarlos de forma eficiente en la interfaz. Fue una excelente práctica para aplicar lógica y estructura en un proyecto más completo.",
             "url": "https://venta-viajes-curso-js-gino.netlify.app/",
             "repositoryURL": "https://github.com/GinoGallardo/venta-viajes-curso-js"
           },
           {
             "name": "Aplicación del Clima",
             "image": "../../image/clima.png",
-            "description": "En este tutorial he aprendido a crear una aplicación de clima utilizando JavaScript y la API de OpenWeatherMap. Implementé funciones para obtener datos en tiempo real del clima de una ciudad ingresada por el usuario, y mostrar información como la temperatura, humedad, descripción e icono correspondiente. Fue una excelente práctica para trabajar con peticiones fetch, manejo de datos JSON, manipulación del DOM y uso de APIs externas. También aprendí a estructurar mejor mi código para mostrar los resultados de forma clara y dinámica. Podés ver el resultado final en el enlace: APLICACION DE CLIMA TRABAJO FINALIZADO.",
+            "description": "En este tutorial he aprendido a crear una aplicación de clima utilizando JavaScript y la API de OpenWeatherMap. Implementé funciones para obtener datos en tiempo real del clima de una ciudad ingresada por el usuario, y mostrar información como la temperatura, humedad, descripción e icono correspondiente. Fue una excelente práctica para trabajar con peticiones fetch, manejo de datos JSON, manipulación del DOM y uso de APIs externas. También aprendí a estructurar mejor mi código para mostrar los resultados de forma clara y dinámica.",
             "url": "https://aplicacion-clima-js-gino.netlify.app/",
             "repositoryURL": "https://github.com/GinoGallardo/aplicacion-clima-js-gino"
           },
@@ -65,7 +65,7 @@
           {
             "name": "Buscador de Películas",
             "image": "../../image/buscador-de-películas.png",
-            "description": "En este tutorial he aprendido a crear una aplicación de buscador de películas utilizando JavaScript y la API de The Movie Database (TMDb). Implementé funciones para buscar películas por nombre, hacer peticiones a la API con fetch y mostrar dinámicamente los resultados, incluyendo título, fecha de estreno, descripción y póster. También trabajé con la manipulación del DOM para renderizar cada resultado en pantalla. Esta práctica me ayudó a afianzar el uso de APIs externas, el manejo de respuestas JSON y la interacción dinámica con el usuario. Podés ver el resultado final en el enlace: BUSCADOR PELICULAS FINALIZADO.",
+            "description": "En este tutorial he aprendido a crear una aplicación de buscador de películas utilizando JavaScript y la API de The Movie Database (TMDb). Implementé funciones para buscar películas por nombre, hacer peticiones a la API con fetch y mostrar dinámicamente los resultados, incluyendo título, fecha de estreno, descripción y póster. También trabajé con la manipulación del DOM para renderizar cada resultado en pantalla. Esta práctica me ayudó a afianzar el uso de APIs externas, el manejo de respuestas JSON y la interacción dinámica con el usuario.",
             "url": "https://calculadora-tutorial-js.netlify.app/https://buscador-info-peliculas-js.netlify.app/",
             "repositoryURL": "https://github.com/GinoGallardo/buscador-peliculas-js"
           }

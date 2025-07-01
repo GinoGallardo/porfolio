@@ -5,7 +5,7 @@ function StudeCoder() {
   const autodidact = learningPath[0]?.coderhouse ?? {};
 
   return (
-      <li className="max-w-7xl mx-auto flex flex-col gap-6 border-b border-white/20 pb-10">
+      <li className="max-w-7xl mx-auto flex flex-col gap-6 border-b border-white/20 pb-10 lg:my-10">
         <span className="text-[#f97e3e] text-xl md:text-2xl font-semibold">
           2022 - 2023
         </span>

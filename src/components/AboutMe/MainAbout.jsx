@@ -1,4 +1,4 @@
-import imgAbout from "../../assets/about-me.png";
+import imgAbout from "../../assets/gino-auriculares.png";
 
 function MainAbout() {
   return (
@@ -6,7 +6,7 @@ function MainAbout() {
       <img
         src={imgAbout}
         alt="soy Gino gallardo desarrollador frontend"
-        className="md:float-left w-[12em] h-[12em] lg:w-[22em] lg:h-[22em] rounded-full md:shape-image mr-12 mb-1"
+        className="md:float-left w-[12em] h-[12em] lg:w-[30em] lg:h-[30em] md:shape-image mr-12 mb-1 drop-shadow-2xl drop-shadow-gray-900"
         style={{
           shapeOutside: "circle()",
           WebkitShapeOutside: "circle()",

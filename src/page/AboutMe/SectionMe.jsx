@@ -1,5 +1,5 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
-import ImgAbout from "../../assets/about-me.png";
+import ImgAbout from "../../assets/about.png";
 
 function SectionMe() {
   const birthYear = 1982;
@@ -14,12 +14,7 @@ function SectionMe() {
   if (!hasHadBirthdayThisYear) age--;
 
   return (
-    <div className="w-full flex flex-col mt-15 lg:mt-20 lg:flex-row gap-10 items-center">
-      <img
-        src={ImgAbout}
-        alt="Gino Gallardo desarrollador frontend"
-        className="lg:w-[20em] shadow-xl"
-      />
+    <div className="w-full flex flex-col mt-15 lg:my-21 lg:flex-row gap-10 items-center">
       <div className="flex flex-col gap-2 lg:gap-4">
         <h1 className="text-3xl md:text-6xl tracking-widest font-bold font-[crimson]">
           ¡Hola! Soy Gino.
@@ -41,6 +36,11 @@ function SectionMe() {
           Ver certificado <FaExternalLinkAlt className="inline-block w-3 h-3" />
         </a>
       </div>
+      <img
+        src={ImgAbout}
+        alt="Gino Gallardo desarrollador frontend"
+        className="w-[15em] lg:w-[30em] drop-shadow-2xl drop-shadow-[#f97f3e57] "
+      />
     </div>
   );
 }

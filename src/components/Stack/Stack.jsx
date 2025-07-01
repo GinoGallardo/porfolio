@@ -1,5 +1,5 @@
 import StackItem from "./StackItem";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   motion as Motion,
   useScroll,
@@ -26,8 +26,21 @@ function ParallaxText({ children, baseVelocity = 100 }) {
   const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
 
   const directionFactor = useRef(1);
+
+  const [divisor, setDivisor] = useState(() =>
+    window.innerWidth <= 768 ? 500 : 2000
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setDivisor(window.innerWidth <= 768 ? 500 : 2000);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   useAnimationFrame((t, delta) => {
-    let moveBy = directionFactor.current * baseVelocity * (delta / 2000);
+    let moveBy = directionFactor.current * baseVelocity * (delta / divisor);
 
     if (velocityFactor.get() < 0) {
       directionFactor.current = -1;
@@ -43,7 +56,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
   return (
     <div className="parallax w-full">
       <Motion.div
-        className="scroller text-white font-bold text-3xl md:text-6xl lg:text-[5em]"
+        className="scroller text-white font-bold text-5xl lg:text-[5em]"
         style={{ x }}
       >
         <span>{children}</span>
@@ -65,11 +78,11 @@ const Stack = () => {
       className="stack-glow bg-black opacity-90 max-w-7xl  mx-4 flex flex-col items-center justify-center rounded-2xl lg:mt-30 lg:mx-auto"
     >
       <ParallaxText baseVelocity={-5}>
-        <h2 className="text-white mb-8">Stack </h2>
+        <h2 className="text-white my-4">Stack </h2>
       </ParallaxText>
       <StackItem />
       <ParallaxText baseVelocity={5}>
-        <h2 className="text-white mb-8">Stack </h2>
+        <h2 className="text-white my-2">Stack </h2>
       </ParallaxText>
     </section>
   );
