@@ -53,7 +53,7 @@ function SectionExperience() {
                     {!isActive && (
                       <h3
                         className={clsx(
-                          "absolute inset-0  flex flex-col justify-center p-2 md:rotate-180 text-2xl md:text-3xl tracking-widest font-bold text-white transition-opacity duration-400",
+                          "absolute inset-0  flex flex-col justify-center p-2 md:rotate-180 text-xl md:text-3xl md:tracking-widest font-bold text-white transition-opacity duration-400",
                           "opacity-100",
                           " [writing-mode:horizontal-tb] md:[writing-mode:vertical-lr]"
                         )}
@@ -65,7 +65,7 @@ function SectionExperience() {
                     {!isActive && (
                       <span
                         className={clsx(
-                          "absolute inset-0 left-12 flex flex-col justify-center p-2 md:rotate-180 text-base font-light text-white transition-opacity duration-400",
+                          "absolute inset-0 top-8 md:left-12 flex flex-col justify-center p-2 md:rotate-180 text-sm md:text-base font-light text-white transition-opacity duration-400",
                           "opacity-100",
                           " [writing-mode:horizontal-tb] md:[writing-mode:vertical-lr]"
                         )}

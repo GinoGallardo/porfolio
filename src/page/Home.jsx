@@ -38,7 +38,7 @@ const Home = () => {
             src={imageProfile}
             alt="Perfil de Gino Gallardo"
             data-atropos-offset="8"
-            className="drop-shadow-2xl pb-16 drop-shadow-[#f97f3e2d]"
+            className="w-[200px] mx-auto md:w-full drop-shadow-2xl md:pb-16 drop-shadow-[#f97f3e2d]"
           />
         </Atropos>
 
