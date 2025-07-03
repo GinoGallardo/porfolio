@@ -4,7 +4,7 @@ const products = [
   { name: "Proyectos", href: "/#proyects" },
   { name: "Habilidades", href: "/#stack" },
   { name: "Sobre mi", href: "/#aboutMe" },
-  { name: "Contactos", href: "#" },
+  { name: "Contactos", href: "/#contact" },
 ];
 
 function Link({ onNavigate }) {
