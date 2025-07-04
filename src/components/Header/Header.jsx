@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <>
-    <header className="">
+    <header id='header' className="">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between px-6 pt-6 lg:px-8">
         <Logo />
         <div className="flex lg:hidden">

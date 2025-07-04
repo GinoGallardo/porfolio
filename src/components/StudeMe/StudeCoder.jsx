@@ -20,7 +20,7 @@ function StudeCoder() {
                 <span className="text-sm text-white/60">{course.date}</span>
               </div>
               <div className="md:w-3/4 flex flex-col gap-2 text-white">
-                <p className="text-xl md:text-2xl lg:text-3xl md:leading-9 -tracking-wider">
+                <p className="text-xl md:text-2xl md:leading-9 -tracking-wider">
                   {course.description}
                 </p>
                 <a

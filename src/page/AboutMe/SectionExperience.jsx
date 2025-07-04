@@ -53,7 +53,7 @@ function SectionExperience() {
                     {!isActive && (
                       <h3
                         className={clsx(
-                          "absolute inset-0  flex flex-col justify-center p-2 md:rotate-180 text-xl md:text-3xl tracking-widest font-bold text-white transition-opacity duration-400",
+                          "absolute inset-0  flex flex-col justify-center p-2 md:rotate-180 text-xl md:text-3xl md:tracking-widest font-bold text-white transition-opacity duration-400",
                           "opacity-100",
                           " [writing-mode:horizontal-tb] md:[writing-mode:vertical-lr]"
                         )}
@@ -89,7 +89,7 @@ function SectionExperience() {
                       className={clsx(
                         "transition-opacity",
                         isActive
-                          ? "delay-[0.4s] duration-500 opacity-100 text-[18px] md:text-2xl lg:text-3xl md:leading-9 -tracking-wider"
+                          ? "delay-[0.4s] duration-500 opacity-100 text-[18px] md:text-2xl md:leading-9 -tracking-wider"
                           : "opacity-0 duration-0 h-[64px]"
                       )}
                     >

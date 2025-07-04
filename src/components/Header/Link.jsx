@@ -1,5 +1,3 @@
-import React from "react";
-
 const products = [
   { name: "Proyectos", href: "/#proyects" },
   { name: "Habilidades", href: "/#stack" },

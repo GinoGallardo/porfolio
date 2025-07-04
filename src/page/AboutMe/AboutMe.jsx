@@ -19,7 +19,7 @@ function AboutMe() {
   };
 
   return (
-    <section className="max-w-7xl items-center justify-center mx-auto px-2 text-white flex flex-col gap-6 lg:gap-16">
+    <section className="max-w-7xl items-center justify-center mx-auto px-4 text-white flex flex-col gap-6 lg:gap-16">
       <div className="group relative inline-block ">
         <Button
           className="fixed top-5 left-5 cursor-pointer z-50 bg-white/10 backdrop-blur-md text-[#f97e3e] shadow-md rounded-md transition-all duration-300"

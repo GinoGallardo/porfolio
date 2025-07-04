@@ -40,10 +40,10 @@ export default function CardAutodidactProyect() {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <h3 className="md:text-lg font-semibold px-1">
+                      <h3 className="text-xl md:text-2xl font-semibold px-1">
                         {exercise.name}
                       </h3>
-                      <p className="text-[18px] md:text-2xl lg:text-3xl md:leading-9 -tracking-wider">
+                      <p className="text-[18px] md:text-xl md:leading-6 -tracking-wider">
                         {exercise.description ?? "Sin descripción"}
                       </p>
                       <div className="w-full flex justify-end p-2 gap-2 mt-auto">
