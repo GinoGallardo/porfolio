@@ -20,7 +20,7 @@ const ProjectModal = ({ item, onClose }) => {
 
         <img src={item.image} alt={item.name} className="w-full rounded-md opacity-90" />
 
-        <p className='text-white font-light font-[mada] tracking-wide text-base'>
+        <p className='text-xl text-white md:text-2xl lg:text-3xl md:leading-9 -tracking-wide md:tracking-widest'>
           {item.description}
         </p>
 

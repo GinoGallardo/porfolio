@@ -51,7 +51,7 @@ const Home = () => {
               desarrollador:<span className="text-white ml-2">"frontend";</span>
             </h3>
           </div>
-          <p className="md:text-2xl md:py-4 px-2 md:px-16 lg:pl-0">
+          <p className="text-xl md:text-2xl lg:text-3xl md:leading-9 -tracking-wide md:tracking-widest">
             Construyo experiencias digitales que combinan funcionalidad, diseño
             y accesibilidad. Me gusta convertir buenas ideas en productos que se
             sienten bien, se ven y funcionan aún mejor.

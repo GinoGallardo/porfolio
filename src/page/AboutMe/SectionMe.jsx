@@ -27,13 +27,13 @@ function SectionMe() {
         <h2 className="text-xl md:text-2xl lg:text-4xl tracking-widest font-semibold font-[crimson]">
           Desarrollador Frontend
         </h2>
-        <p className="text-base md:text-2xl mt-4 leading-relaxed tracking-widest">
+        <p className="text-xl md:text-2xl lg:text-3xl md:leading-9 -tracking-wide md:tracking-widest">
           Tengo {age} años y soy peruano, actualmente viviendo en Buenos Aires,
           Argentina. Soy un apasionado del fútbol y disfruto mucho correr como
           parte de mi estilo de vida. Como cristiano, mis valores y principios
           guían muchas de mis decisiones diarias.
         </p>
-        <p className="text-base md:text-2xl mt-4 leading-relaxed tracking-widest">
+        <p className="text-xl md:text-2xl lg:text-3xl md:leading-9 -tracking-wide md:tracking-widest">
           Empecé en el mundo del desarrollo web en 2022 y desde entonces no he
           dejado de aprender y crear. Mi entusiasmo por la tecnología y el
           desarrollo me impulsa a seguir creciendo y aportando con cada proyecto

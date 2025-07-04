@@ -43,7 +43,7 @@ export default function CardAutodidactProyect() {
                       <h3 className="md:text-lg font-semibold px-1">
                         {exercise.name}
                       </h3>
-                      <p className="text-sm mb-4 px-1 tracking-tight">
+                      <p className="text-[18px] md:text-2xl lg:text-3xl md:leading-9 -tracking-wider">
                         {exercise.description ?? "Sin descripción"}
                       </p>
                       <div className="w-full flex justify-end p-2 gap-2 mt-auto">

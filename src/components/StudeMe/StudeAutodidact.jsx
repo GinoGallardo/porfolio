@@ -29,7 +29,7 @@ const StudeAutodidact = () => {
                   💻 {resource.name ?? key}
                 </span>
 
-                <p className="leading-relaxed tracking-tight">
+                <p className="text-xl md:text-2xl lg:text-3xl md:leading-9 -tracking-wider">
                   {resource.description}
                 </p>
                   <CardAutodidactProyect />
