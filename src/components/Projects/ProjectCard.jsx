@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ProjectCardPreview from "./ProjectCardPreview";
 import ProjectModal from "./ProjectModal";
 

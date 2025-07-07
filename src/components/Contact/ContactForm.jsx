@@ -1,8 +1,11 @@
+import Button from "../Button/Button";
 
 export default function ContactForm() {
   return (
     <div className="bg-[#f97e3e]/20 rounded-2xl px-6 py-5 md:py-15 sm:py-20 lg:px-8">
-        <p className="md:mt-2 text-center text-2xl md:text-4xl">Envíame un correo electrónico.</p>
+      <p className="md:mt-2 text-center text-2xl md:text-4xl">
+        Envíame un correo electrónico.
+      </p>
       <form
         action="#"
         method="POST"
@@ -66,13 +69,8 @@ export default function ContactForm() {
             </div>
           </div>
         </div>
-        <div className="mt-5 md:mt-10">
-          <button
-            type="submit"
-            className="block w-full rounded-md bg-[#f97e3e] px-3.5 py-2.5 text-center md:text-2xl font-semibold text-white shadow-xs hover:bg-[#f97e3e]/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f97e3e]"
-          >
-            Enviar correo electrónico
-          </button>
+        <div className="flex items-center justify-center w-full mt-5 md:mt-10">
+          <Button type="submit">Enviar correo electrónico</Button>
         </div>
       </form>
     </div>

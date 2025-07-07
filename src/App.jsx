@@ -1,5 +1,5 @@
-import ParticulesBackgroun from './components/ParticlesBg/ParticulesBackgroun';
-import Router from './Router/Router';
+import ParticulesBackgroun from "./components/ParticlesBg/ParticulesBackgroun";
+import Router from "./Router/Router";
 
 function App() {
   return (

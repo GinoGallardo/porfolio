@@ -1,10 +1,9 @@
-import Image from "../../assets/gino-stup.png";
 import SocialLinks from "../SocialLinks/SocialLinks";
 
 const ContactSocialLink = () => {
   return (
     <section className="isolate rounded-2xl flex flex-col items-center justify-center gap-8 ">
-      <h2 className="text-4xl text-center text-white font-bold lg:mb-8 md:text-[102px]">
+      <h2 className="text-4xl text-center typewriter tracking-wider text-white font-bold lg:mb-8 md:text-[102px]">
         contacto.
       </h2>
       <p className="text-xl md:text-2xl lg:text-3xl md:leading-9 -tracking-wide md:tracking-widest">
