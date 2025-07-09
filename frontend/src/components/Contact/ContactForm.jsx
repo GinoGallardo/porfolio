@@ -1,6 +1,38 @@
 import Button from "../Button/Button";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import useSchema from "../../validation/userSchema";
 
 export default function ContactForm() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    resolver: zodResolver(useSchema),
+  });
+
+  const onSubmit = async (data) => {
+    try {
+      const res = await fetch("http://localhost:5000/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        alert("Mensaje enviado correctamente ✅");
+      } else {
+        alert("Error al enviar mensaje.");
+      }
+    } catch (err) {
+      console.error("Error:", err);
+      alert("Error al conectar con el servidor.");
+    }
+  };
+
   return (
     <div className="bg-[#f97e3e]/20 rounded-2xl px-6 py-5 md:py-15 sm:py-20 lg:px-8">
       <p className="md:mt-2 text-center text-2xl md:text-4xl">
@@ -9,35 +41,48 @@ export default function ContactForm() {
       <form
         action="#"
         method="POST"
+        onSubmit={handleSubmit(onSubmit)}
         className="mx-auto mt-16 lg:text-2xl max-w-xl sm:mt-20"
       >
         <div className="grid grid-cols-1 gap-x-8 gap-4 md:gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="first-name" className="block">
+            <label htmlFor="firstName" className="block">
               Nombre
             </label>
             <div className="md:mt-2.5">
               <input
-                id="first-name"
-                name="first-name"
+                id="firstName"
+                name="firstName"
+                {...register("firstName")}
                 type="text"
                 autoComplete="given-name"
                 className="block w-full rounded-md px-3.5 py-2 text-xl outline-1 -outline-offset-1 outline-gray-300 placeholder:text-[#f97e3e] focus:outline-2 focus:-outline-offset-2 focus:outline-[#f97e3e]"
               />
+              {errors.firstName?.message && (
+                <p className="text-red-700 text-sm p-1">
+                  {errors.firstName?.message}
+                </p>
+              )}
             </div>
           </div>
           <div>
-            <label htmlFor="last-name" className="block">
+            <label htmlFor="lastName" className="block">
               Apellido
             </label>
             <div className="md:mt-2.5">
               <input
-                id="last-name"
-                name="last-name"
+                id="lastName"
+                name="lastName"
+                {...register("lastName")}
                 type="text"
                 autoComplete="family-name"
                 className="block w-full rounded-md px-3.5 py-2 text-xl outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#f97e3e]"
               />
+              {errors.lastName?.message && (
+                <p className="text-red-700 text-sm p-1">
+                  {errors.lastName?.message}
+                </p>
+              )}
             </div>
           </div>
           <div className="sm:col-span-2">
@@ -48,10 +93,16 @@ export default function ContactForm() {
               <input
                 id="email"
                 name="email"
+                {...register("email")}
                 type="email"
                 autoComplete="email"
                 className="block w-full rounded-md px-3.5 py-2 text-xl outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#f97e3e]"
               />
+              {errors.email?.message && (
+                <p className="text-red-700 text-sm p-1">
+                  {errors.email?.message}
+                </p>
+              )}
             </div>
           </div>
           <div className="sm:col-span-2">
@@ -62,10 +113,16 @@ export default function ContactForm() {
               <textarea
                 id="message"
                 name="message"
+                {...register("message")}
                 rows={4}
                 className="block w-full rounded-md px-3.5 py-2 text-xl outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#f97e3e]"
                 defaultValue={""}
               />
+              {errors.message?.message && (
+                <p className="text-red-700 text-sm p-1">
+                  {errors.message?.message}
+                </p>
+              )}
             </div>
           </div>
         </div>
