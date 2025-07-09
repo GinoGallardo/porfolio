@@ -3,7 +3,7 @@ import cors from "cors";
 import nodemailer from "nodemailer";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import ContactMessage from "./models/ContactMessage.js";
+import ContactMessage from "../models/ContactMessage";
 
 dotenv.config();
 
@@ -60,6 +60,4 @@ app.post("/api/contact", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
-});
+export default app;
