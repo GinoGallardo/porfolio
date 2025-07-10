@@ -3,7 +3,7 @@ import cors from "cors";
 import nodemailer from "nodemailer";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import ContactMessage from "../models/ContactMessage";
+import ContactMessage from "./models/ContactMessage.js";
 
 dotenv.config();
 
