@@ -65,7 +65,7 @@
           {
             "name": "Buscador de Películas",
             "image": "../../image/buscador-de-películas.png",
-            "description": "En este tutorial he aprendido a crear una aplicación de buscador de películas utilizando JavaScript y la API de The Movie Database (TMDb). Implementé funciones para buscar películas por nombre, hacer peticiones a la API con fetch y mostrar dinámicamente los resultados, incluyendo título, fecha de estreno, descripción y póster. También trabajé con la manipulación del DOM para renderizar cada resultado en pantalla. Esta práctica me ayudó a afianzar el uso de APIs externas, el manejo de respuestas JSON y la interacción dinámica con el usuario.",
+            "description": "En este tutorial no solo he aprendido a crear una aplicación de buscador de películas utilizando JavaScript y la API de The Movie Database (TMDb). Implementé funciones para buscar películas por nombre, hacer peticiones a la API con fetch y mostrar dinámicamente los resultados, incluyendo título, fecha de estreno, descripción y póster. También trabajé con la manipulación del DOM para renderizar cada resultado en pantalla. Esta práctica me ayudó a afianzar el uso de APIs externas, el manejo de respuestas JSON y la interacción dinámica con el usuario.",
             "url": "https://calculadora-tutorial-js.netlify.app/https://buscador-info-peliculas-js.netlify.app/",
             "repositoryURL": "https://github.com/GinoGallardo/buscador-peliculas-js"
           }
