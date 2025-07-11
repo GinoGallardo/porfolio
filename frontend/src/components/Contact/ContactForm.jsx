@@ -8,6 +8,7 @@ export default function ContactForm() {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm({
     resolver: zodResolver(useSchema),
   });
@@ -24,6 +25,7 @@ export default function ContactForm() {
 
       if (res.ok) {
         alert("Mensaje enviado correctamente ✅");
+        reset();
       } else {
         alert("Error al enviar mensaje.");
       }
