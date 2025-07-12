@@ -2,8 +2,11 @@ import Button from "../Button/Button";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import useSchema from "../../validation/userSchema";
+import { useState } from "react";
 
 export default function ContactForm() {
+  const [isSending, setIsSending] = useState(false);
+
   const {
     register,
     handleSubmit,
@@ -14,6 +17,7 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (data) => {
+    setIsSending(true);
     try {
       const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
         method: "POST",
@@ -32,6 +36,8 @@ export default function ContactForm() {
     } catch (err) {
       console.error("Error:", err);
       alert("Error al conectar con el servidor.");
+    } finally {
+      setIsSending(false);
     }
   };
 
@@ -129,7 +135,15 @@ export default function ContactForm() {
           </div>
         </div>
         <div className="flex items-center justify-center w-full mt-5 md:mt-10">
-          <Button type="submit">Enviar correo electrónico</Button>
+          <Button type="submit" disabled={isSending}>
+            {isSending ? (
+              <p className="flex items-center justify-center">
+                <span class="loader"></span> enviando...{" "}
+              </p>
+            ) : (
+              "Enviar correo electrónico"
+            )}
+          </Button>
         </div>
       </form>
     </div>
